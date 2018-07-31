@@ -1,0 +1,20 @@
+First output: Raining
+	parent process outputs raining because i=child pid and j=0
+2nd output: Cats
+	child process outputs Cats because the i=fork() returns 0 for the 		newly created child process and j is initialized at 0 for the for 		loop
+3rd output: Raining
+	the parent process outputs raining because j=1 and i=child process
+	id
+4th output: Dogs
+	the child process outputs dogs because j=1 but i=0 because it is
+	the child process
+5th output: Raining
+	the parent process outputs raining because j=2 and i=child process
+	id
+6th: Dogs
+	the child process outputs Dogs because j=2 but remains 0. This appears after the terminal shell prompt because the parent finishes before the child due to the 3 second delay in the "Cats" output.
+
+
+
+	
+	

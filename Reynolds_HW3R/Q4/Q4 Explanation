@@ -1,0 +1,3 @@
+The standard cp throws an error that the file is the same file and no copy executes.
+When the file is shown to be the same cp should throw the same error.
+  

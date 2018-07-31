@@ -1,0 +1,12 @@
+Reynolds 2693018 Question 1 Debug
+
+	Compiler Error:
+		line 6: "," replaced with ";" to end the line
+	
+	Run Time Errors:
+		line 18: Replaced "i=0" with "i=2" resolves the arthimetic
+			exception of dividing by 0 when dividing n/i and 				gets rid of the divide by 1 exception
+		lines 14-17: Added an if statement to handle n=1 case
+		line 13: Initialized count=1 because everything is 				divisble by 1
+		line 21: Changed to == 0 instead of .00001 to handle 				cases of long decimal results
+		

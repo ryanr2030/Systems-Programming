@@ -1,0 +1,6 @@
+Ryan Reynolds 2693018 Question 4 Debug Report
+	Logic Error:
+		in the nested if statement i needs to be incremented to the
+		character location of the first instance where
+		word[i]!=word[i+j] i.e the character after the last 			consecutive match. Setting i=i+j followed by a continue 		statement iterates the loop to check the character
+		after the last statement

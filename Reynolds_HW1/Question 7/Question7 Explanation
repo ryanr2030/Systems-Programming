@@ -1,0 +1,12 @@
+Part A:
+
+starts in bit index 1 "or" 7 with 16
+7 in binary:  00111
+16 in binary: 10000
+OR Resultant: 10110 Bit index 0 is 0 because of the shift.
+10110 in decimal is 46 which is the output.
+
+Part B:
+Displays the bit values in decimal at each position in an 8-bit byte.
+
+
